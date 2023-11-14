@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            First web page
+        </title>
+    </head>
+    <body>
+
+    <div>
+        <h1>Registration Page</h1>
+    </div>
+
+    <hr>
+    
+    <form>
+        <fieldset>
+            <legend>Registration Page</legend>
+        <label>Username:*</label>
+    <input type="text" required minlength="5" maxlength="30" tabindex="1"/>
+    <br>
+    <br>
+    <label>Password*</label>
+    <input type="password" required minlength="5" maxlength="30"/>
+    <br>
+    <br>
+    <label>Mobile No:*</label>
+    <input type="tel" required pattern="[6-9]\d{9}" placeholder="Please enter 10-digit number" tabindex="2"/>
+    <br>
+    <br>
+    <label>DOB:*</label>
+    <input type="date" required/>
+    <br>
+    <br>
+    <label>Gender:*</label>
+    <input type="radio" name="gender" tabindex="3" required/>Male
+    <input type="radio"name="gender" />Female
+    <input type="radio"name="gender" />Other
+    <br>
+    <br>
+    <label>Continent:</label>
+    <input type="text" value="Asia" disabled/>
+    <br>
+    <br>
+    <label>Country:</label>
+    <input type="text" value="India" readonly/>
+    <br>
+    <br>    
+    <label>State:*</label>
+    <select required tabindex="4">
+        <option>Select</option>
+        <option>KA</option>
+        <option>UP</option>
+        <option>TN</option>
+        <option>KL</option>
+        <option>TS</option>  
+    </select>
+    <br>
+    <br>
+    <label>City:*</label>
+    <input type="text" required />
+    <br>
+    <br>
+    <label>Address Line 1:*</label>
+    <input type="text" required/>
+    <br>
+    <br>
+    <label>Address Line 2:</label>
+    <input type="text"/>
+    <br>
+    <br>
+    <label>Message:</label>
+    <textarea cols="20" rows="10" minlength="15" maxlength="200"></textarea>
+    <br>
+    <br>
+    <label>No. of refferals*</label>
+    <input type="number" required min="0" max="5"/>
+    <br>
+    <br>
+
+    <input type="checkbox" tabindex="5"/>Please accept <a href="https://www.flipkart.com/pages/terms">Terms and condition</a>
+    <br>
+    <br>
+    <input type="submit" tabindex="6"/>
+    <input type="button" value="Cancel" tabindex="7"/>
+    </form>
+</fieldset>
+    </body>
+</html> 

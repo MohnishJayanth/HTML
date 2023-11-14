@@ -1,0 +1,18 @@
+html form validation attributes
+
+required: compulsory should be entered <input     type="number" required />
+disabled : cannot change <input     type="text" value="India" disabled       />
+readonly readonly <input     type="text" value="India" readonly        />
+min lenght - minimum string lenght <input type="text"  minlength="5"/>
+max lenght  maximum string lenght<input type="text"  maxlength="30"/>
+min  -       number : min number
+max -number :maximum number
+name -dom
+id -dom
+tabindex : starting tab entry too ending <input type="text" tabindex="5"/>
+placeholder : guiding the user, text that appears in the box before you enter your details <input     type="number" required placeholder="pl enter 10 digit no" />
+value : default value <input     type="text" required value="Inida"           />
+
+pattern creating a pattern of default entry example mobile numbers  <input type="text" required pattern="[6-9]\d{9}"/>
+ 
+	
