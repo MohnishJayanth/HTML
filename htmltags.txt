@@ -126,3 +126,5 @@ browser local storage not in 4 there in 5
 
 api new 
 doc type short for 5 long for 4
+
+semantic tags
