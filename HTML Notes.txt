@@ -130,3 +130,10 @@ doc type short for 5 long for 4
 
 svg loads fater than any other format of picture
 
+
+HTML Attributes
+
+target="_blank" for opening page in a new tag
+href is used for reference
+
+
